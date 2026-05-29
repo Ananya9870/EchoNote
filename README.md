@@ -1,6 +1,6 @@
-# 🎙️ VoxDoc — Talk to Your Documents using RAG
+# 🎙️ EchoNote — Talk to Your Documents using RAG
 
-VoxDoc is a **voice-enabled AI document assistant** that lets users upload PDF files, ask natural language questions, and receive **accurate, document-grounded answers** in both **text and voice**.
+EchoNote is a **voice-enabled AI document assistant** that lets users upload PDF files, ask natural language questions, and receive **accurate, document-grounded answers** in both **text and voice**.
 
 Built using **Retrieval-Augmented Generation (RAG)**, VoxDoc combines semantic search, large language models, and speech synthesis to transform static documents into interactive knowledge sources.
 
@@ -18,7 +18,7 @@ Built using **Retrieval-Augmented Generation (RAG)**, VoxDoc combines semantic s
 
 ---
 
-## 🧩 How VoxDoc Works
+## 🧩 How EchoNote Works
 
 1. A PDF document is uploaded by the user  
 2. The document is split into meaningful text chunks  
@@ -83,7 +83,7 @@ voxdoc/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/voxdoc.git
+git clone https://github.com/your-username/EchoNote.git
 cd voxdoc
 2️⃣ Create a Virtual Environment (Recommended)
 bash
