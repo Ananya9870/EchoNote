@@ -1,115 +1,111 @@
-# 🎙️ EchoNote — Talk to Your Documents using RAG
+# 📚 EchoNote – AI-Powered Document Learning Assistant
 
-EchoNote is a **voice-enabled AI document assistant** that lets users upload PDF files, ask natural language questions, and receive **accurate, document-grounded answers** in both **text and voice**.
+EchoNote is an AI-powered document tutor that transforms PDFs, Word documents, PowerPoint presentations, notes, and images into an interactive learning experience. Instead of simply answering questions, EchoNote teaches concepts, generates exam-oriented questions, explains formulas step-by-step, summarizes content, and provides voice based responses.
 
-Built using **Retrieval-Augmented Generation (RAG)**, VoxDoc combines semantic search, large language models, and speech synthesis to transform static documents into interactive knowledge sources.
+## 🚀 Features
 
----
+* 📄 Upload PDF, DOCX, PPTX, TXT, Markdown, and Image files
+* 🔍 RAG-based document understanding using Qdrant Vector Database
+* 🤖 AI-powered tutoring and concept explanation
+* 📝 Automatic generation of important exam questions
+* 📊 Formula and numerical problem solving with step-by-step explanations
+* 🖼️ OCR support for extracting text from images
+* 🎙️ Text-to-Speech voice responses
+* 💬 Multi-chat support with persistent chat history
+* 📚 Document-specific memory and retrieval
+* 🔒 Chat session management with memory cleanup
 
-## ✨ Key Highlights
+## 🏗️ Tech Stack
 
-- 📄 Upload and analyze PDF documents  
-- 🔍 Semantic search powered by vector embeddings  
-- 🧠 Retrieval-Augmented Generation (RAG) architecture  
-- 💬 Multiple chat sessions with independent memory  
-- 🎙️ Voice responses via text-to-speech  
-- ⚡ High-speed inference using Groq (LLaMA 3)  
-- 🗄️ Local vector storage using Qdrant  
+### Frontend
 
----
+* Streamlit
 
-## 🧩 How EchoNote Works
+### Backend & AI
 
-1. A PDF document is uploaded by the user  
-2. The document is split into meaningful text chunks  
-3. Each chunk is converted into a vector embedding  
-4. Embeddings are stored in a Qdrant vector database  
-5. User asks a question in natural language  
-6. Relevant chunks are retrieved based on semantic similarity  
-7. The LLM generates a context-aware response  
-8. The response is displayed and spoken aloud  
+* Python
+* OpenAI Agents SDK
+* FastEmbed
+* Qdrant Vector Database
 
----
+### Document Processing
 
-## 🏗️ Architecture Overview
+* PyMuPDF
+* Python-Docx
+* Python-PPTX
+* OCR (Tesseract)
 
-PDF Upload
-↓
-Text Chunking
-↓
-Embedding Generation
-↓
-Qdrant Vector Database
-↓
-User Query → Embedding
-↓
-Relevant Context Retrieval
-↓
-LLM (Groq - LLaMA 3)
-↓
-Text Output + Voice Response
+### Voice
 
----
+* gTTS (Google Text-to-Speech)
 
-## 🛠️ Tech Stack
+## ⚙️ System Architecture
 
-| Layer | Technology |
-|------|-----------|
-| Frontend | Streamlit |
-| LLM | Groq (LLaMA-3.3-70B) |
-| Embeddings | FastEmbed |
-| Vector Database | Qdrant |
-| Document Loader | LangChain |
-| Text Chunking | RecursiveCharacterTextSplitter |
-| Voice Output | gTTS |
-| Language | Python |
+1. User uploads a document.
+2. Document content is extracted.
+3. Text is split into semantic chunks.
+4. Embeddings are generated using FastEmbed.
+5. Chunks are stored in Qdrant Vector Database.
+6. User asks questions.
+7. Relevant context is retrieved through semantic search.
+8. AI Agent generates context-aware responses.
+9. Responses can be converted into speech.
 
----
-
-## 📁 Project Structure
-
-voxdoc/
-│
-├── chatbot.py # Streamlit UI & RAG pipeline
-├── agents.py # LLM agent and execution logic
-├── requirements.txt # Project dependencies
-├── .env # API keys and environment variables
-└── qdrant_db/ # Local vector database (auto-generated)
-
----
-
-## ⚙️ Setup & Installation
-
-### 1️⃣ Clone the Repository
+## 📂 Project Structure
 
 ```bash
-git clone https://github.com/your-username/EchoNote.git
-cd voxdoc
-2️⃣ Create a Virtual Environment (Recommended)
-bash
-Copy code
+EchoNote/
+├── chatbot.py
+├── agents.py
+├── requirements.txt
+├── speeches/
+├── qdrant_db/
+├── chat_history.json
+└── README.md
+```
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/Ananya9870/EchoNote.git
+cd EchoNote
+
 python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-3️⃣ Install Dependencies
-bash
-Copy code
+venv\Scripts\activate
+
 pip install -r requirements.txt
+```
 
-5️⃣ Run VoxDoc
-bash
-Copy code
+## ▶️ Run Locally
+
+```bash
 streamlit run chatbot.py
+```
 
-🧪 How to Use
-Click Initialize System
+## 💡 Example Use Cases
 
-Upload a PDF document
+* Learn from college notes
+* Prepare for examinations
+* Generate important questions
+* Understand formulas and derivations
+* Convert study material into audio explanations
+* Interact with research papers through natural language
 
-Ask questions related to the document
+## 🔮 Future Enhancements
 
-Switch between multiple chat sessions
+* Multi language tutoring
+* Interactive quizzes and assessments
+* YouTube video learning integration
+* Diagram and graph interpretation
+* Personalized learning paths
+* Export notes and summaries
 
-Listen to AI-generated voice answers
+## 👩‍💻 Author
 
-📄 License
-This project is licensed under the MIT License.
+Ananya Kriti
+
+Software Engineer | AI/ML Developer | RAG & Generative AI Enthusiast
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
