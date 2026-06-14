@@ -1,0 +1,76 @@
+{
+  "2ba3384e-c2ce-4f16-896e-b01ac9fb6f33": {
+    "name": "\ud83d\udcc4 Teach me this document from ...",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Teach me this document from scratch and make me exam ready, explain all important comcepts in simple terms"
+      },
+      {
+        "role": "assistant",
+        "content": "To get you exam ready, let's break down the key concepts from the document. \n\nFirst, we have the concept of \"New Effort\" which is calculated using the formula: \nNew effort = 1,000 X (15/12)4 = 2441.40 PM (from the document context). \n\nThen, we have \"New Cost\" which is calculated by multiplying the new effort by the cost: \nNew Cost = new effort X cost = 2441.40 X \u00a3200000 = \u00a3488281 (from the document context).\n\nThe document also mentions several factors that affect software development, including:\n- PREC (very high with a score of 1.24)\n- FLEX (very low with a score of 5.07)\n- RESL (high with a score of 2.83)\n- TEAM (high score of 2.19)\n- PMAT (low with a score of 6.24)\n\nAdditionally, the document introduces the concept of \"effort multipliers\" from COCOMO II - early design, which are used to adjust the estimated effort. \n\nNow, let's look at the example given in the document. The estimated effort is 35.8 person months, and with effort multipliers, this becomes:\n35.8 x 1.91 x 1.81 x 0.5 = 61.9 person months (from the document context).\n\nHere are 10 important questions with model answers based on the document:\n\n1. What is the formula for calculating \"New Effort\"?\nAnswer: New effort = 1,000 X (15/12)4 = 2441.40 PM (from the document context).\n2. How is \"New Cost\" calculated?\nAnswer: New Cost = new effort X cost = 2441.40 X \u00a3200000 = \u00a3488281 (from the document context).\n3. What is the score for PREC in the given example?\nAnswer: PREC is very high with a score of 1.24 (from the document context).\n4. What is the score for FLEX in the given example?\nAnswer: FLEX is very low with a score of 5.07 (from the document context).\n5. What is the score for RESL in the given example?\nAnswer: RESL is high with a score of 2.83 (from the document context).\n6. What is the score for TEAM in the given example?\nAnswer: TEAM has a high score of 2.19 (from the document context).\n7. What is the score for PMAT in the given example?\nAnswer: PMAT is low with a score of 6.24 (from the document context).\n8. What are effort multipliers used for?\nAnswer: Effort multipliers are used to adjust the estimated effort (from the document context).\n9. What is the estimated effort in the given example?\nAnswer: The estimated effort is 35.8 person months (from the document context).\n10. How is the estimated effort adjusted using effort multipliers in the given example?\nAnswer: The estimated effort is adjusted by multiplying it with the effort multipliers: 35.8 x 1.91 x 1.81 x 0.5 = 61.9 person months (from the document context).\n\nThese questions cover the key concepts in the document, and understanding these will help you prepare for your exam."
+      },
+      {
+        "role": "user",
+        "content": "what is the difference between overestimation and underestimation"
+      },
+      {
+        "role": "assistant",
+        "content": "**Overestimation vs Underestimation: Key Differences**\n\nAccording to the document context, specifically [Slide 5], the main difference between overestimation and underestimation is as follows:\n\n* **Overestimation** occurs when the time, effort, or resources required for a project or task are predicted to be more than what is actually needed.\n* **Underestimation** happens when the time, effort, or resources required are predicted to be less than what is actually necessary.\n\n**Causes and Consequences:**\n\n* Overestimation is caused by uncertainty or unfamiliarity, buffering for risk, limited stakeholder trust, and excessive caution. Its consequences include wasted resources, delays in starting other projects, and decreased credibility.\n* Underestimation is caused by optimism bias, pressure to meet deadlines, inexperience, and ignoring complexities. Its consequences include missed deadlines, budget overruns, team burnout, decreased quality, and erosion of trust.\n\nIn summary, overestimation leads to wasted resources and decreased credibility, while underestimation leads to missed deadlines, budget overruns, and team burnout. (Source: [Slide 5])"
+      },
+      {
+        "role": "user",
+        "content": "what is delphi cost estimation"
+      },
+      {
+        "role": "assistant",
+        "content": "**Delphi Cost Estimation: Definition and Process**\n\nAccording to the document context, specifically [Slide 13], Delphi Cost Estimation is a technique that overcomes some of the problems of expert judgment. Here's how it works:\n\n* A team of experts and a coordinator are involved in the estimation process.\n* Each expert carries out the estimation independently and mentions any unusual characteristics of the product that have influenced their estimation.\n* The coordinator notes down any extraordinary rationale and circulates it among the experts.\n* The experts then re-estimate, taking into account the feedback and insights from the coordinator.\n* Notably, the experts never meet each other to discuss their viewpoints, as this could lead to influence and bias in the estimation process.\n\nThis approach allows for a more objective and unbiased estimation process, as each expert provides their independent estimate without being influenced by others. (Source: [Slide 13])"
+      }
+    ],
+    "doc_name": "SPM_Unit-2_Part-1_Software Estimations.pptx",
+    "doc_indexed": true,
+    "ended": true,
+    "created_at": "2026-06-12T10:30:35.506193"
+  },
+  "39b2e22e-a925-4b92-9d2d-9db1a4217c8c": {
+    "name": "\ud83d\udcc4 Summarize the key topics",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Summarize the key topics"
+      },
+      {
+        "role": "assistant",
+        "content": "The key topics in the provided document context are:\n\n1. Defining the Learning Task: This includes examples of tasks, performance metrics, and experiences, such as playing checkers, recognizing hand-written words, and driving on four-lane highways using vision sensors (Page 26).\n2. ML founding disciplines (Page 30).\n3. Tasks solved by using a learning algorithm, including:\n   - Speech recognition\n   - Computer Vision (face recognition, classification of microscope images of cells, handwritten digit/text recognition, image denoising, etc.)\n   - Robot control\n   - Medical Diagnosis/Neuroscience\n   - Biosurveillance\n   - Genomic analysis\n   - Stock Market Analysis\n   - Detecting Credit Card Fraud\n   - Detecting Network Intrusion (Page 35).\n4. Types of Unsupervised Learning, specifically Clustering, which involves identifying patterns and grouping similar objects together (Page 45).\n5. Types of Learning, including Semi-supervised Learning (Page 40).\n\nThese topics are covered in the document context provided, specifically from pages 26, 30, 35, 40, and 45."
+      },
+      {
+        "role": "user",
+        "content": "what is unsupervise learning"
+      },
+      {
+        "role": "assistant",
+        "content": "**What is Unsupervised Learning?**\n\nAccording to the document context (Page 37), Unsupervised Learning is a type of learning where:\n\n* **No labels or ground truth values are needed**.\n* **Training data does not include desired outputs**.\n* The goal is to **identify similarities between input** and try to \"understand\" the data.\n* It involves **looking for structure or unusual patterns** in the data.\n* Unlike supervised learning, unsupervised learning is **not looking for something specific**.\n* **Evaluation is usually indirect or qualitative**.\n\nIn other words, unsupervised learning is a type of machine learning where the algorithm tries to find patterns, relationships, or groupings in the data without any prior knowledge of the expected output. (Page 37)"
+      },
+      {
+        "role": "user",
+        "content": "what is the difference between supervised and unsupervised"
+      },
+      {
+        "role": "assistant",
+        "content": "**Difference between Supervised and Unsupervised Learning**\n\nAccording to the document context (Page 37 and Page 43), the main difference between supervised and unsupervised learning is:\n\n* **Supervised Learning**: In supervised learning, the training data includes **desired outputs** or **labels**, and the algorithm tries to learn from these labeled examples to make predictions. (Page 43)\n* **Unsupervised Learning**: In unsupervised learning, the training data **does not include desired outputs** or **labels**, and the algorithm tries to identify **similarities between input** and find patterns or structure in the data. (Page 37)\n\nIn other words, supervised learning is used when we have labeled data and want to predict a specific output, whereas unsupervised learning is used when we don't have labeled data and want to discover patterns or relationships in the data.\n\nNote that semi-supervised learning is also mentioned in the document context (Page 38), which is a combination of both supervised and unsupervised learning, where the training data includes a few labeled examples and a lot of unlabeled examples."
+      },
+      {
+        "role": "user",
+        "content": "how is ml different from dl"
+      },
+      {
+        "role": "assistant",
+        "content": "This information is not in the uploaded document. \n\nThe document context provided does not mention Deep Learning (DL) or the differences between Machine Learning (ML) and Deep Learning (DL). It only discusses the basics of Machine Learning, such as its definition, analogy with gardening, and types of learning, but does not provide any information about Deep Learning."
+      }
+    ],
+    "doc_name": "Week-1.pdf",
+    "doc_indexed": true,
+    "ended": true,
+    "created_at": "2026-06-12T10:38:07.542028"
+  }
+}

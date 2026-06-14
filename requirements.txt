@@ -1,0 +1,14 @@
+streamlit
+groq
+python-dotenv
+gtts
+qdrant-client
+fastembed
+langchain
+langchain-text-splitters
+langchain-community
+pymupdf
+python-docx
+python-pptx
+pillow
+pytesseract
